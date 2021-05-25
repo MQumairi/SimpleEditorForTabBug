@@ -13,6 +13,8 @@
 		4CF3A070265D41B700C97CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF3A06E265D41B700C97CCE /* Main.storyboard */; };
 		4CF3A07C265D41B700C97CCE /* SimpleEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3A07B265D41B700C97CCE /* SimpleEditorTests.swift */; };
 		4CF3A087265D41B700C97CCE /* SimpleEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3A086265D41B700C97CCE /* SimpleEditorUITests.swift */; };
+		4CF3A095265D43D200C97CCE /* CustomTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3A094265D43D200C97CCE /* CustomTextBlock.swift */; };
+		4CF3A097265D43DE00C97CCE /* ParagraphStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3A096265D43DE00C97CCE /* ParagraphStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		4CF3A082265D41B700C97CCE /* SimpleEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF3A086265D41B700C97CCE /* SimpleEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEditorUITests.swift; sourceTree = "<group>"; };
 		4CF3A088265D41B700C97CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF3A094265D43D200C97CCE /* CustomTextBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextBlock.swift; sourceTree = "<group>"; };
+		4CF3A096265D43DE00C97CCE /* ParagraphStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				4CF3A06E265D41B700C97CCE /* Main.storyboard */,
 				4CF3A071265D41B700C97CCE /* Info.plist */,
 				4CF3A072265D41B700C97CCE /* SimpleEditor.entitlements */,
+				4CF3A094265D43D200C97CCE /* CustomTextBlock.swift */,
+				4CF3A096265D43DE00C97CCE /* ParagraphStyle.swift */,
 			);
 			path = SimpleEditor;
 			sourceTree = "<group>";
@@ -254,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF3A06B265D41B600C97CCE /* ViewController.swift in Sources */,
+				4CF3A095265D43D200C97CCE /* CustomTextBlock.swift in Sources */,
 				4CF3A069265D41B600C97CCE /* AppDelegate.swift in Sources */,
+				4CF3A097265D43DE00C97CCE /* ParagraphStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
